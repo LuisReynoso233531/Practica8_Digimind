@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820525982587",
+    "project_id": "mydigimind-711b8",
+    "storage_bucket": "mydigimind-711b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820525982587:android:5953d0a5ea62d8768c93de",
+        "android_client_info": {
+          "package_name": "com.example.mydigimind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz7CU4auId5NdJUascNL8K0LP2vW66XOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
