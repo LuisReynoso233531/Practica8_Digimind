@@ -1,6 +1,9 @@
 package com.example.mydigimind
 
+import LoginActivity
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -16,8 +19,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val Login: Button = findViewById(R.id.Login)
+
+        Login.setOnClickListener{
+            var intent: Intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
 
         val navView: BottomNavigationView = binding.navView
 
